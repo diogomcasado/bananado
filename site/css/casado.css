@@ -1,0 +1,104 @@
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/bg.png) top right no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.logotipo {
+  width: auto;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 5px solid #555;
+  border-radius: 10px;
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.col-sm {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.last_update {
+  padding-bottom: 3%;
+  padding-top: 5%;
+
+  height: 100%;
+
+  position: relative;
+
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  bottom: 0px;
+  top: 90%;
+}
+
+.col-sm .btn.btn-dark {
+  margin-top: 10px;
+}
+
+
+.wrapper {
+  text-align: center;
+  height: 42px;
+  transform: translateY(-5px);
+  
+}
+.wrapper ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  /* For IE, the outcast */
+  zoom:1;
+  *display: inline;
+  font-size: 2.1rem;
+  
+}
+
+.wrapper a {
+  float: left;
+  padding-left: 23px;
+  color: white;
+  
+}
+
+.wrapper a:hover {
+  float: left;
+  color: rgb(146, 146, 146);
+
+}
+
+/* .bg-image {
+   
+    background-image: url("../assets/bg.jpg");
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    opacity: 0.7;
+    
+   
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+*/
